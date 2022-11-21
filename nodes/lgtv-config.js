@@ -154,8 +154,9 @@ module.exports = function (RED) {
 
     RED.httpAdmin.get('/lgtv-connect', (req, res) => {
         if (!status || status === 'Close') {
-            lgtv = require('lgtv2')({
+            lgtv = require('webos-lib')({
                 url: 'ws://' + req.query.host + ':3000',
+                keyFile: RED.settings.userDir,
                 saveKey(key, cb) {
                     token = key;
                     RED.nodes.addCredentials(req.query.id, {
