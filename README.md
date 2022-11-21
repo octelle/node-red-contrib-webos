@@ -1,9 +1,7 @@
-# node-red-contrib-lgtv
+# node-red-contrib-webos
 
-[![NPM version](https://badge.fury.io/js/node-red-contrib-lgtv.svg)](http://badge.fury.io/js/node-red-contrib-lgtv)
-[![npm](https://img.shields.io/npm/dt/node-red-contrib-lgtv.svg)]()
-[![dependencies Status](https://david-dm.org/hobbyquaker/node-red-contrib-lgtv/status.svg)](https://david-dm.org/hobbyquaker/node-red-contrib-lgtv)
-[![Build Status](https://travis-ci.org/hobbyquaker/node-red-contrib-lgtv.svg?branch=master)](https://travis-ci.org/hobbyquaker/node-red-contrib-lgtv)
+[![NPM version](https://badge.fury.io/js/node-red-contrib-webos.svg)](http://badge.fury.io/js/node-red-contrib-webos)
+[![npm](https://img.shields.io/npm/dt/node-red-contrib-webos.svg)]()
 [![License][mit-badge]][mit-url]
 
 > Node-RED Nodes to Control LG webOS Smart TVs :tv:
@@ -46,15 +44,13 @@ http://flows.nodered.org/flow/f497989bef43fb9310837adbff69ce73
 
 ## Support, Contributing
 
-For questions and suggestions open an [Issue](https://github.com/hobbyquaker/node-red-contrib-lgtv/issues/new) or chat 
-me on Slack: [@hobbyquaker](https://node-red.slack.com/team/hobbyquaker).
+For questions and suggestions open an [Issue](https://github.com/octelle/node-red-contrib-webos/issues/new)
 
 Pull Requests welcome!
 
-
 ## License
 
-MIT (c) Sebastian Raff
+MIT (c) octelle
 
 [mit-badge]: https://img.shields.io/badge/License-MIT-blue.svg?style=flat
 [mit-url]: LICENSE

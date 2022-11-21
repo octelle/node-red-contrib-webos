@@ -1,6 +1,6 @@
 {
-  "name": "node-red-contrib-lgtv",
-  "version": "1.1.0",
+  "name": "node-red-contrib-webos",
+  "version": "1.0.0",
   "description": "Node-RED Nodes to control LG webOS Smart TVs",
   "main": "none",
   "scripts": {
@@ -14,14 +14,15 @@
     "Smart",
     "TV"
   ],
-  "repository": "https://github.com/hobbyquaker/node-red-contrib-lgtv",
-  "author": "Sebastian Raff",
+  "repository": "https://github.com/octelle/node-red-contrib-webos",
+  "author": "octelle",
   "contributors": [
+      "Sebastian Raff https://github.com/hobbyquaker",
       "itsj4y <itsj4y@yahoo.com> https://github.com/itsj4y"
   ],
   "license": "MIT",
   "dependencies": {
-    "lgtv2": "^1.4.1"
+    "webos-lib": "^1.0.0"
   },
   "node-red": {
     "nodes": {

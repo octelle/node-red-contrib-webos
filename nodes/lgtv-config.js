@@ -11,7 +11,7 @@ module.exports = function (RED) {
         node.users = {};
         const subscriptions = {};
 
-        const lgtv = require('lgtv2')({
+        const lgtv = require('webos-lib')({
             url: 'ws://' + node.host + ':3000',
             clientKey: node.credentials.token,
             saveKey(key, cb) {
