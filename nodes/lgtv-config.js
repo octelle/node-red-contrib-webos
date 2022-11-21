@@ -14,6 +14,7 @@ module.exports = function (RED) {
         const lgtv = require('webos-lib')({
             url: 'ws://' + node.host + ':3000',
             clientKey: node.credentials.token,
+            keyFile: RED.settings.userDir,
             saveKey(key, cb) {
                 token = key;
                 RED.nodes.addCredentials(node.id, {
